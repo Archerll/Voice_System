@@ -8,7 +8,18 @@
 2.ROS Kinetic Kame
 
 执行：
+首先必须安装sox软件，使其可以在命令行下播放音乐。
 
-首先source devel/setup.bash  
-之后开启每一个node，和topic
+之后将包中libs中的 .so文件根据电脑的位数，在相应文件夹下将对应的.so文件copy到usr/lib中
+
+sudo cp libmsc.so /usr/lib
+
+将以上准备做完之后即可以执行ros
+
+首先 catkin_make
+
+之后 roscore
+
+最后 source devel/setup.bash  
+开启每一个node，和topic
 其中xf_asr_topic 是执行语音交互的topic
