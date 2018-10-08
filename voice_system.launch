@@ -1,0 +1,9 @@
+<launch>
+
+<node name ="xf_tts_node" pkg = "voice_system" type = "xf_tts_node" />
+
+<node name = "tuling_nlu_node" pkg = "voice_system" type = "tuling_nlu_node" />
+
+<node name = "xf_asr_node" pkg = "voice_system" type = "xf_asr_node" />
+
+</launch>
