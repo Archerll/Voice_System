@@ -22,5 +22,6 @@ sudo cp libmsc.so /usr/lib
 
 最后 source devel/setup.bash  
 开启每一个node，和topic
+
 其中xf_asr_topic 是执行语音交互的topic
-向xf_asr_topic发送的topic为    rostopic pub -1 voice/xf_asr_topic std_msgs/Int32 1
+向xf_asr_topic发送的topic为  rostopic pub -1 voice/xf_asr_topic std_msgs/Int32 1
