@@ -2,8 +2,8 @@
 @file
 @brief a simple demo to recognize speech from microphone
 
-@author		taozhang9
-@date		2016/05/27
+@author		archer
+@date		2018/05/27
 */
 
 #include <stdio.h>
